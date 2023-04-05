@@ -1,0 +1,5522 @@
+[
+  {
+    "name": "asian",
+    "description": "From ACS B03002_006, \"Asian Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "black",
+    "description": "From ACS B03002_004, \"Black or African American Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "census_year",
+    "description": "Census data with an associated year",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "latinx",
+    "description": "From ACS B03002_012, \"Hispanic or Latino\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "median_income",
+    "description": "From ACS B19013_001, \"Median Household Income\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "native_american",
+    "description": "From ACS B03002_005, \"American Indian and Alaska Native Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "nhpi",
+    "description": "From ACS B03002_007, \"Native Hawaiian and Other Pacific Islander alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "non_citizen",
+    "description": "From ACS B05001_006, \"Not a U.S. citizen\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "num_below_poverty",
+    "description": "From ACS B17001_002, \"Income in the past 12 months below poverty level\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "other_race",
+    "description": "From ACS B03002_008, \"Some other race alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "per_capita_income",
+    "description": "From ACS B19301_001, \"Per Capita Income in the Past 12 Months\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "total_population",
+    "description": "From ACS: B01003_001, \"Total Population\".",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "total_poverty_denom",
+    "description": "From ACS B17001_001, \"Poverty Status in The Past 12 Months: Total\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "two_plus_races",
+    "description": "From ACS B03002_009, \"Two or more races\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "us_citizen_naturalized",
+    "description": "From ACS B05001_005, \"U.S. citizen by naturalization\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "white",
+    "description": "From ACS B03002_003, \"White alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_place_staging",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "asian",
+    "description": "From ACS B03002_006, \"Asian Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "black",
+    "description": "From ACS B03002_004, \"Black or African American Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "census_year",
+    "description": "Census data with an associated year",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "latinx",
+    "description": "From ACS B03002_012, \"Hispanic or Latino\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "median_income",
+    "description": "From ACS B19013_001, \"Median Household Income\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "native_american",
+    "description": "From ACS B03002_005, \"American Indian and Alaska Native Alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "nhpi",
+    "description": "From ACS B03002_007, \"Native Hawaiian and Other Pacific Islander alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "non_citizen",
+    "description": "From ACS B05001_006, \"Not a U.S. citizen\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "num_below_poverty",
+    "description": "From ACS B17001_002, \"Income in the past 12 months below poverty level\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "other_race",
+    "description": "From ACS B03002_008, \"Some other race alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "per_capita_income",
+    "description": "From ACS B19301_001, \"Per Capita Income in the Past 12 Months\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "total_population",
+    "description": "From ACS: B01003_001, \"Total Population\".",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "total_poverty_denom",
+    "description": "From ACS B17001_001, \"Poverty Status in The Past 12 Months: Total\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "two_plus_races",
+    "description": "From ACS B03002_009, \"Two or more races\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "us_citizen_naturalized",
+    "description": "From ACS B05001_005, \"U.S. citizen by naturalization\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "white",
+    "description": "From ACS B03002_003, \"White alone\"",
+    "dataset": "5-Year ACS Estimates for Census Places",
+    "database": "canonical_prod_acs_tract",
+    "type": "number",
+    "category": "demographics",
+    "source": "Census and American Community Survey",
+    "dbt_database": "-"
+  },
+  {
+    "name": "associated_geographic_entity",
+    "description": "Associated Geographic Entity",
+    "dataset": "LSAD Codes",
+    "database": "canonical_prod_lsad_codes",
+    "type": "text",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad",
+    "description": "Legal/Statistical Area Description codes",
+    "dataset": "LSAD Codes",
+    "database": "canonical_prod_lsad_codes",
+    "type": "text",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad_description",
+    "description": "LSAD Description",
+    "dataset": "LSAD Codes",
+    "database": "canonical_prod_lsad_codes",
+    "type": "number",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID",
+    "dataset": "Rural and Urban Classifications by Census Tract",
+    "database": "canonical_prod_ruca",
+    "type": "number",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "ruca_primary_10_cat",
+    "description": "Rurality 10-category",
+    "dataset": "Rural and Urban Classifications by Census Tract",
+    "database": "canonical_prod_ruca",
+    "type": "number",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "ruca_secondary_22_cat",
+    "description": "Rurality 22-category",
+    "dataset": "Rural and Urban Classifications by Census Tract",
+    "database": "canonical_prod_ruca",
+    "type": "number",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "rurality_three_cat",
+    "description": "Rurality 3-category",
+    "dataset": "Rural and Urban Classifications by Census Tract",
+    "database": "canonical_prod_ruca",
+    "type": "number",
+    "category": "-",
+    "source": "",
+    "dbt_database": "-"
+  },
+  {
+    "name": "city",
+    "description": "City",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "frid",
+    "description": "Unique identifier of facility",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "number",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "is_mh",
+    "description": "Binary indicator of whether facility is mental health",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "boolean (T/F)",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "is_sa",
+    "description": "Binary indicator of whether facility is substance abuse",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "boolean (T/F)",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "latitude",
+    "description": "Latitude",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "number",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "longitude",
+    "description": "Longitude",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "number",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name1",
+    "description": "Name of faciliity",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name2",
+    "description": "Secondary name of facility",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "state",
+    "description": "State",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "street1",
+    "description": "Street address 1",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "street2",
+    "description": "Street address 2",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "type_facility",
+    "description": "Type of facility",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "text",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "uses_bupren",
+    "description": "Facility uses bupren",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "boolean (T/F)",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "uses_naltrex",
+    "description": "Facility uses naltrex",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "boolean (T/F)",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "zip",
+    "description": "Zip code",
+    "dataset": "SAMSHA Facility Data",
+    "database": "canonical_prod_samhsa_facilities_raw",
+    "type": "number",
+    "category": "-",
+    "source": "SAMSHA",
+    "dbt_database": "-"
+  },
+  {
+    "name": "zip",
+    "description": "Zipcode",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "blkgrpce",
+    "description": "Block group FIPS code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "countyfp",
+    "description": "County FIPS code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat",
+    "description": "Functional status code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Census block group GEOID",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "Block group geometry",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class Code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": "Concatenated name and legal/statistical area description",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp",
+    "description": "State FIPS code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "tractce",
+    "description": "Tract FIPS code",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "Year",
+    "dataset": "Shapefiles for Census block groups",
+    "database": "canonical_prod_shp_bg",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "cbsafp",
+    "description": "CBSA FIPS code",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csafp",
+    "description": "CSA FIPS code",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "CBSA GEOID",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "CBSA geometry",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad",
+    "description": "Legal/Statistical Area Description",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "memi",
+    "description": "Metropolitan/micropolitan status indicator",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class Code",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name",
+    "description": "CBSA name",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": "Concatenated name and legal/statistical area description",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Census CBSAs (Core-Based Statistical Areas)",
+    "database": "canonical_prod_shp_cbsa",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "classfp",
+    "description": "Current class",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "countyfp",
+    "description": "County FIPS code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "countyns",
+    "description": "American National Standards Institute (ANSI) county code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csafp",
+    "description": "Combined Statistical Area (CSA) FIPS code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat",
+    "description": "Functional status code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "County GEOID",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "County geometry",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad",
+    "description": "Legal/Statistical Area Description",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "metdivfp",
+    "description": "Metropolitan Division code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name",
+    "description": "County name",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": " Concatenated name and legal/statistical area description",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp",
+    "description": "State FIPS code",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Census counties",
+    "database": "canonical_prod_shp_county",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "classfp",
+    "description": "Current class",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "cnectafp",
+    "description": "Combined New England City and Town Area code (New England states only)",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "countyfp",
+    "description": "County FIPS code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "cousubfp",
+    "description": "County subdivision FIPS code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "cousubns",
+    "description": "County subdivision Geographic Names Information System (GNIS) code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat",
+    "description": "Functional status code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "County GEOID",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "County geometry",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad",
+    "description": "Legal/Statistical Area Description",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "metdivfp",
+    "description": "Metropolitan Division code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name",
+    "description": "County name",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": "Concatenated name and legal/statistical area description",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "nctadvfp",
+    "description": "New England City and town Area division code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "nectafp",
+    "description": "New England City and town area code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp",
+    "description": "State FIPS code",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "Year",
+    "dataset": "Shapefiles for Census county subdivisions",
+    "database": "canonical_prod_shp_cousub",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "ansicode",
+    "description": "Official code for the landmark for use by federal agencies for data transfer and dissemination",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "areaid",
+    "description": "Area landmark identifier",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "fullname",
+    "description": "Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, base name, suffix type, suffix direction, and suffix qualifier (as available) with a space between each expanded text field",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "Military installation geometry",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Military Installations",
+    "database": "canonical_prod_shp_mil",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "classfp",
+    "description": "Current class",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat",
+    "description": "Functional status code",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Place GEOID",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "Place geometry",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lsad",
+    "description": "Legal/Statistical Area Description",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name",
+    "description": "Place name",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": "Current name and the translated legal/statistical area description",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pcicbsa",
+    "description": "Metropolitan or micropolitan statistical area principal city indicator",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pcinecta",
+    "description": "New England city and town area principal city indicator",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "placefp",
+    "description": "Place FIPS code",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "placens",
+    "description": "Place GNIS code",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp",
+    "description": "State FIPS code",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Places",
+    "database": "canonical_prod_shp_place",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland10",
+    "description": "2010 Census land area",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater10",
+    "description": "2010 Census water area",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat10",
+    "description": "2010 Census functional status",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid10",
+    "description": "Concatenation of 2010 Census state FIPS code and Public Use Microdata Area code",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "PUMA geometry",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat10",
+    "description": "2010 Census latitude",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon10",
+    "description": "2010 Census longitude",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc10",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad10",
+    "description": "2010 Census translated legal/statistical area description code and Public Use Microdata Area name",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pumace10",
+    "description": "2010 Census Public Use Microdata Area code",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp10",
+    "description": "2010 Census state FIPS code",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Public Use Microdata Areas",
+    "database": "canonical_prod_shp_puma",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "fullname",
+    "description": "Concatenation of expanded text for prefix qualifier, prefix direction, prefix type, base name, suffix type, suffix direction, and suffix qualifier (as available) with a space between each expanded text field",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "Roads geometry",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "id",
+    "description": "Unique identifier",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "linearid",
+    "description": "Linear feature identifier",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "rttyp",
+    "description": "Route type code",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Roads",
+    "database": "canonical_prod_shp_road",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "aland",
+    "description": "Land area",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "awater",
+    "description": "Water area",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "countyfp",
+    "description": "County FIPS code",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "funcstat",
+    "description": "Functional status code",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geoid",
+    "description": "Tract GEOID",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geometry",
+    "description": "Tract geometry",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlat",
+    "description": "Latitude",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "intptlon",
+    "description": "Longitude",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "mtfcc",
+    "description": "MAF/TIGER Feature Class code",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "name",
+    "description": "Tract name, census tract code converted to an integer or integer plus 2- character decimal if the last two characters of the code are not both zeros.",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "namelsad",
+    "description": "Current name and the translated legal/statistical area description",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "text",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "tractce",
+    "description": "Census tract code",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "statefp",
+    "description": "State FIPS code",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "Shapefiles for Census Tracts",
+    "database": "canonical_prod_shp_tract",
+    "type": "number",
+    "category": "shapefiles",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "city",
+    "description": "Agency city",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "cofips",
+    "description": "County FIPS code",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "county",
+    "description": "Agency county",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csllea08_fulltime_civilian",
+    "description": "Number of full-time civilians from 2008 CSLLEA",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csllea08_fulltime_sworn",
+    "description": "Number of full-time sworn from 2008 CSLLEA",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csllea08_id",
+    "description": "Unique agency ID from 2008 CSLLEA",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csllea08_parttime_civilian",
+    "description": "Number of part-time civilians from 2008 CSLLEA",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "csllea08_parttime_sworn",
+    "description": "Number of part-time sworn from 2008 CSLLEA",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geocoding_score",
+    "description": "",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geocoding_type",
+    "description": "",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "geom",
+    "description": "",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lea_name",
+    "description": "Agency name",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lear_fulltime_sworn",
+    "description": "Number of full-time sworn obtained through LEAR verification",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lear_id",
+    "description": "Unique agency ID",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lear_parttime_sworn",
+    "description": "Number of part-time sworn obtained through LEAR verification",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lemas13_fulltime_civilian",
+    "description": "Number of full-time civilians from 2013 LEMAS",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lemas13_fulltime_sworn",
+    "description": "Number of full-time sworn from 2013 LEMAS",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lemas13_parttime_civilian",
+    "description": "Number of part-time civilians from 2013 LEMAS.",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lemas13_parttime_sworn",
+    "description": "Number of part-time sworn from 2013 LEMAS.",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "location_census_tract",
+    "description": "Agency Census Tract",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "location_full_street_address_or_intersection",
+    "description": "Agency Street Address or Closest Intersection",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "no_policing",
+    "description": "(For Sheriff's Departments): Indicates if agency does not engage in any law enforcement services.",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "ori7",
+    "description": "Originating Agency Identifier (Length 7)",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "ori9",
+    "description": "Originating Agency Identifier (Length 9)",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_division_region",
+    "description": "Division Region from FBI Police Employee Data (2014)",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_female_civilians",
+    "description": "Number of female civilians from FBI Police Employee Data (2014)",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_female_total",
+    "description": "Number of total females from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_male_civilians",
+    "description": "Number of male civilians from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_male_officers",
+    "description": "Number of male sworn from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_male_total",
+    "description": "Number of total males from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_msa",
+    "description": "Metropolitan Statistical Area from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_population",
+    "description": "UCR Population from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "pe14_total_employees",
+    "description": "Number of total employees (Sworn and Civilians) from FBI Police Employee Data, 2014",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "samptype",
+    "description": "Agency Type",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "source",
+    "description": "List of dataset(s) from merger (LEAR, 2014 CSLLEA Universe, State POST lists, 2008 CSLLEA and LEAIC) that contained agency.",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "state",
+    "description": "Agency State",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "text",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "zip",
+    "description": "Agency Zip Code",
+    "dataset": "LEAR",
+    "database": "canonical_prod_lear",
+    "type": "number",
+    "category": "LEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "-"
+  },
+  {
+    "name": "accident_investigation",
+    "description": "Agency regularly performs or has primary responsibility for (traffic and vehicle-related) accident investigations.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "addr1",
+    "description": "Address Line 1",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "addr2",
+    "description": "Address Line 2",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "agcyname",
+    "description": "Agency Name",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "agcytype",
+    "description": "Agency Type",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "animal_control",
+    "description": "Agency regularly performs or has primary responsibility for animal control functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "anti-terrorism",
+    "description": "Agency regularly performs or has primary responsibility for participation in anti-terrorism task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "apprehension_fugitives",
+    "description": "Agency regularly performs or has primary responsibility for apprehension of fugitives.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "arrest_criminal_suspects",
+    "description": "Agency regularly performs or has primary responsibility for arresting criminal suspects.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "arson_investigation",
+    "description": "Agency regularly performs or has primary responsibility for arson investigations.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "bomb_explosive_disposal",
+    "description": "Agency regularly performs or has primary responsibility for bomb/explosives disposal.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "booking_release_inmates",
+    "description": "Agency regularly performs or has primary responsibility for booking and release of inmates.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "budget_estimate",
+    "description": "Indicates whether agency's total operating budget is an estimate",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "city",
+    "description": "Agency city",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "commercial_vehicle_enforcement",
+    "description": "Agency regularly performs or has primary responsibility for commercial vehicle enforcement.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "county",
+    "description": "Agency county name",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "court_security",
+    "description": "Agency regularly performs or has primary responsibility for providing court security.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "csllea08_id",
+    "description": "Agency identifier from CSLLEA (2008)",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "cybercrime_investigation",
+    "description": "Agency regularly performs or has primary responsibility for cybercrime investigations.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "dispatching_cfs",
+    "description": "Agency regularly performs or has primary responsibility for dispatching of calls for service.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "district_precinct_division_stations",
+    "description": "Number of district/precinct/division stations, separate from headquarters, operated by agency as of 9/30/2008.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "drug_trafficking",
+    "description": "Agency regularly performs or has primary responsibility for participation in drug trafficking task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "emergency_management",
+    "description": "Agency regularly performs or has primary responsibility for emergency management.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "ems",
+    "description": "Agency regularly performs or has primary responsibility for emergency medical services.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "enforcing_child_support_order",
+    "description": "Agency regularly performs or has primary responsibility for enforcing child support orders.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "enforcing_protection_order",
+    "description": "Agency regularly performs or has primary responsibility for enforcing protection orders.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "execute_arrest_warrant",
+    "description": "Agency regularly performs or has primary responsibility for executing arrest warrants.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "fips",
+    "description": "FIPS code.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "fire_service",
+    "description": "Agency regularly performs or has primary responsibility for fire services.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "first_response_criminal_incident",
+    "description": "Agency regularly performs or has primary responsibility for first response to criminal incidents.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "fixed_site_neighborhood_community_substation",
+    "description": "Number of fixed-site neighborhood/community stations, separate from headquarters, operated by agency as of 9/30/2008.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "forensic_processing_crime_scene",
+    "description": "Agency regularly performs or has primary responsibility for forensic processing of crime scenes.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "ft_civilian",
+    "description": "Number of full-time officers with restricted or no arrest powers.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "ft_sworn_full_arrest_powers",
+    "description": "Number of full-time sworn personnel (defined as those with general arrest powers).",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "gangs",
+    "description": "Agency regularly performs or has primary responsibility for participation in gangs task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "homicide_investigation",
+    "description": "Agency regularly performs or has primary responsibility for homicide investigations.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "human_trafficking",
+    "description": "Agency regularly performs or has primary responsibility for participation in human trafficking task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "inmate_transport",
+    "description": "Agency regularly performs or has primary responsibility for transporting inmates.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "location_full_street_address_or_intersection",
+    "description": "Street address or closest intersection of agency.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "mobile_neighborhood_community_substation",
+    "description": "Number of mobile neighborhood/community stations, separate from headquarters, operated by agency as of 9/30/2008.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_court",
+    "description": "Agency does not regularly perform nor has primary responsibility for court-related functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_detention_related",
+    "description": "Agency does not regularly perform nor has primary responsibility for detention-related functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_investigation",
+    "description": "Agency does not regularly perform nor has primary responsibility for criminal investigation functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_patrol_response",
+    "description": "Agency does not regularly perform nor has primary responsibility for patrol and response functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_public_safety",
+    "description": "Agency does not regularly perform nor has primary responsibility for special public safety functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_specialized",
+    "description": "Agency does not regularly perform nor has primary responsibility for specialized functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_task_force_participation",
+    "description": "Agency does not regularly perform nor has primary responsibility for any task force participation.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "no_traffic_vehicle",
+    "description": "Agency does not regularly perform nor has primary responsibility for traffic and vehicle-related functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_assigned_duties_cfs",
+    "description": "Number of uniformed officers with regularly assigned duties that included responding to citizen calls for service.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_community_policing",
+    "description": "Number of officers or other sworn personnel specifically designated to engage in community policing activities.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_court_duties",
+    "description": "Number of sworn personnel working primarily in a court-related duty area.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_jail_and_court_duties",
+    "description": "Number of sworn personnel working in jail and court-related duty areas.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_jail_duties",
+    "description": "Number of sworn personnel working primarily in a jail-related duty area.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_law_enforcement_court_duties",
+    "description": "Number of sworn personnel working in law enforcement and court-related duty areas.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_law_enforcement_duties",
+    "description": "Number of sworn personnel working primarily in a law enforcement duty area.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_law_enforcement_jail_court_duties",
+    "description": "Number of sworn personnel working in law enforcement, jail, and court duty areas.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_other_duty_areas",
+    "description": "Number of sworn personnel working primarily in another duty area.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_other_split_duty_combination",
+    "description": "Number of sworn personnel working in another, unlisted split-duty combination.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "num_officers_sro_duties",
+    "description": "Number of full-time sworn personnel who serve as school resource officers or other sworn personnel whose primary duties are related to school safety (except crossing guards).",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "operate_basic_training",
+    "description": "Agency regularly performs or has primary responsibility for operating a basic training academy.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "operate_forensic_crime_lab",
+    "description": "Agency regularly performs or has primary responsibility for operating a forensic crime lab.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "operate_jail",
+    "description": "Agency regularly performs or has primary responsibility for operating one or more jails.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "operate_temp_holding_no_overnight",
+    "description": "Agency regularly performs or has primary responsibility for operating a temporary holding cell not for overnight detention.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "operate_temp_holding_overnight",
+    "description": "Agency regularly performs or has primary responsibility for operating an overnight lockup or temporary holding facility separate from a jail.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "other_investigation",
+    "description": "Agency regularly performs or has primary responsibility for other, unlisted criminal investigations.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "other_specialized",
+    "description": "Agency regularly performs or has primary responsibility for other, unlisted specialized functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "other_specialized_specify",
+    "description": "Specification of other, unlisted specialized functions.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "other_task_force_participation",
+    "description": "Agency regularly performs or has primary responsibility for other, unlisted task force participation.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "other_task_force_specify",
+    "description": "Specification of other, unlisted task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "parking_enforcement",
+    "description": "Agency regularly performs or has primary responsibility for parking enforcement and control.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "pt_civilian",
+    "description": "Number of part-time officers with restricted or no arrest powers.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "pt_sworn_full_arrest_powers",
+    "description": "Number of part-time sworn personnel (defined as those with general arrest powers).",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "respond_cfs",
+    "description": "Agency regularly performs or has primary responsibility for responding to citizen requests for service.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "routine_patrol",
+    "description": "Agency regularly performs or has primary responsibility for routine patrol services.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "school_crossing_service",
+    "description": "Agency regularly performs or has primary responsibility for school crossing services.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "search_rescue",
+    "description": "Agency regularly performs or has primary responsibility for search and rescue.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "serving_eviction_notices",
+    "description": "Agency regularly performs or has primary responsibility for serving eviction notices.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "serving_process",
+    "description": "Agency regularly performs or has primary responsibility for serving process.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "special_events_crowd_control",
+    "description": "Agency regularly performs or has primary responsibility for special events/crowd control.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "state",
+    "description": "State code.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "statename",
+    "description": "Name of state.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "subtype1",
+    "description": "Special jurisdiction: specific type.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "subtype2",
+    "description": "Special jurisdiction: specific type.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "swat_tactical_ops",
+    "description": "Agency regularly performs or has primary responsibility for tactical operations (SWAT).",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "total_ft_sworn",
+    "description": "Total actual number of full-time sworn personnel.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "total_operating_budget",
+    "description": "Agency's total operating budget for fiscal or calendar year.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "traffic_control",
+    "description": "Agency regularly performs or has primary responsibility for traffic direction and control.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "traffic_law_enforcement",
+    "description": "Agency regularly performs or has primary responsibility for traffic law enforcement.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "tribal",
+    "description": "Tribal Agency indicator.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "text",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "underwater_recovery",
+    "description": "Agency regularly performs or has primary responsibility for underwater recovery.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "violent_crime",
+    "description": "Agency regularly performs or has primary responsibility for participation in violent crime task force.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "boolean (T/F)",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "zip",
+    "description": "ZIP Code.",
+    "dataset": "CSLLEA",
+    "database": "canonical_prod_csllea_",
+    "type": "number",
+    "category": "CSLLEA",
+    "source": "LEA censuses and surveys",
+    "dbt_database": "typ_stg_raw_csllea_"
+  },
+  {
+    "name": "raw_row_number",
+    "description": "An number used to join clean data back to the raw data",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "date",
+    "description": "The date of the stop, in YYYY-MM-DD format. Some states do not provide the exact stop date: for example, they only provide the year or quarter in which the stop occurred. For these states, stop_date is set to the date at the beginning of the period: for example, January 1 if only year is provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "time",
+    "description": "The 24-hour time of the stop, in HH:MM format.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "location",
+    "description": "The freeform text of the location. Occasionally, this represents the concatenation of several raw fields, i.e. street_number, street_name.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lat",
+    "description": "The latitude of the stop. If not provided by the department, we attempt to geocode any provided address or location using Google Maps. Google Maps returns a \"best effort\" response, which may not be completely accurate if the provided location was malformed or underspecified. To protect against suprious responses, geocodes more than 4 standard deviations from the median stop lat/lng are set to NA.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "lng",
+    "description": "The longitude of the stop. If not provided by the department, we attempt to geocode any provided address or location using Google Maps. Google Maps returns a \"best effort\" response, which may not be completely accurate if the provided location was malformed or underspecified. To protect against suprious responses, geocodes more than 4 standard deviations from the median stop lat/lng are set to NA.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "county_name",
+    "description": "County name where provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "neighborhood",
+    "description": "This is the neighborhood of the stop and some police departments will provide this instead of a location or beat.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "beat",
+    "description": "Police beat. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the beat using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "district",
+    "description": "Police district. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the district using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subdistrict",
+    "description": "Police subdistrict. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the subdistrict using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "division",
+    "description": "Police division. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the division using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subdivision",
+    "description": "Police subdivision. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the subdivision using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "police_grid_number",
+    "description": "Police grid number. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the police grid number using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "precinct",
+    "description": "Police precinct. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the precinct using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "region",
+    "description": "Police region. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the region using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "reporting_area",
+    "description": "Police reporting area. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the reporting area using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "sector",
+    "description": "Police sector. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the sector using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subsector",
+    "description": "Police subsector. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the subsector using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "substation",
+    "description": "Police substation. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the substation using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "service_area",
+    "description": "Police service area. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the service area using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "zone",
+    "description": "Police zone. If not provided, but we have retrieved police department shapefiles and the location of the stop, we geocode the stop and find the zone using the shapefiles.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subject_age",
+    "description": "The age of the stopped subject. When date of birth is given, we calculate the age based on the stop date. Values outside the range of 10-110 are coerced to NA.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subject_race",
+    "description": "The race of the stopped subject. Values are standardized to white, black, hispanic, asian/pacific islander, and other/unknown",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "subject_sex",
+    "description": "The recorded sex of the stopped subject.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_id_hash",
+    "description": "A unique hash of the officer id used to identify individual officers within a location. This is usually just a hash of the provided officer ID or badge number.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_age",
+    "description": "The age of the stopped officer. When date of birth is given, we calculate the age based on the stop date. Values outside the range of 10-100 are coerced to NA.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_race",
+    "description": "The race of the stopped officer. Values are standardized to white, black, hispanic, asian/pacific islander, and other/unknown",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_sex",
+    "description": "The recorded sex of the stopped officer.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_years_of_service",
+    "description": "Number of years officer has been with the police department.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "officer_assignment",
+    "description": "Department or subdivision to which officer has been assigned.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "department_id",
+    "description": "ID of department or subdivision to which officer has been assigned.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "department_name",
+    "description": "Name of department or subdivision to which officer has been assigned.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "unit",
+    "description": "Unit to which officer has been assigned.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "type",
+    "description": "Type of stop: vehicular or pedestrian.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "disposition",
+    "description": "Disposition of stop where provided. What is recorded here varies widely across police departments.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "violation",
+    "description": "Specific violation of stop where provided. What is recorded here varies widely across police departments.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "arrest_made",
+    "description": "Indicates whether an arrest made.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "citation_issued",
+    "description": "Indicates whether a citation was issued.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "warning_issued",
+    "description": "Indicates whether a warning was issued.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "outcome",
+    "description": "The strictest action taken among arrest, citation, warning, and summons.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "contraband_found",
+    "description": "Indicates whether contraband was found",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "contraband_drugs",
+    "description": "Indicates whether drugs were found. This is only defined when contraband_found is true.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "contraband_weapons",
+    "description": "Indicates whether weapons were found. This is only defined when contraband_found is true.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "contraband_other",
+    "description": "ndicates whether contraband other than drugs and weapons were found. This is only defined when contraband_found is true.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "frisk_performed",
+    "description": "Indicates whether a frisk was performed. This is technically different from a search, but departments will sometimes include frisks as a search type.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "search_conducted",
+    "description": "Indicates whether any type of search was conducted, i.e. driver, passenger, vehicle. Frisks are excluded where the department has provided resolution on both.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "search_person",
+    "description": "Indicates whether a search of a person has occurred. This is only defined when search_conducted is TRUE.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "search_vehicle",
+    "description": "Indicates whether a search of a vehicle has occurred. This is only defined when search_conducted is TRUE.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "boolean (T/F)",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "search_basis",
+    "description": "This provides the reason for the search where provided and is categorized into k9, plain view, consent, probable cause, and other. If a search occurred but the reason wasn't listed, we assume probable cause.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "reason_for_arrest",
+    "description": "A freeform text field indicating the reason for arrest where provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "reason_for_frisk",
+    "description": "A freeform text field indicating the reason for frisk where provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "reason_for_search",
+    "description": "A freeform text field indicating the reason for search where provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "reason_for_stop",
+    "description": "A freeform text field indicating the reason for the stop where provided.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "speed",
+    "description": "The recorded speed of the vehicle for the stop.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "posted_speed",
+    "description": "The speed limit where the stop was recorded.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "number",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "use_of_force_description",
+    "description": "A freeform text field describing the use of force.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "use_of_force_reason",
+    "description": "A freeform text field describing the reason for the use of force.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_color",
+    "description": "A freeform text of the vehicle color where provided; format varies widely.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_make",
+    "description": "A freeform text of the vehicle make where provided; format varies widely.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_model",
+    "description": "A freeform text of the vehicle model where provided; format varies widely.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_type",
+    "description": "A freeform text of the vehicle type where provided; format varies widely.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_registration_state",
+    "description": "A freeform text of the vehicle registration state where provided; format varies widely.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "vehicle_year",
+    "description": "Vehicle manufacture year where provided. This value is NA for any year before 1800.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "notes",
+    "description": "A freeform text field containing any officer notes.",
+    "dataset": "OPP",
+    "database": "canonical_prod_opp_<state>_<city or statewide>",
+    "type": "text",
+    "category": "LEA",
+    "source": "-",
+    "dbt_database": "-"
+  },
+  {
+    "name": "academy_training",
+    "description": "Total hours of academy training required of agency's new officer recruits.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "address",
+    "description": "State Agency Address",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "afis",
+    "description": "Does agency use Automated Fingerprint Identification System on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "aircraft",
+    "description": "Does agency use manned aircraft such as airplanes or helicopters?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "armored_vehicles",
+    "description": "Does agency use armored vehicles?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "authorized_flashbangs",
+    "description": "Are diversionary devices such as flashbangs authorized for use by full-time sworn personnel (all sworn, some sworn, or none)?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "authorized_tear_gas",
+    "description": "Are chemical agent projectiles such as tear gas authorized for use by full-time sworn personnel? (all sworn, some sworn, or none)?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "ballistic_imaging",
+    "description": "Does agency use ballistic imaging on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "black",
+    "description": "Percentage of Black or African-American residents in state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "bwc",
+    "description": "About how many body worn cameras are currently in service?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "bwc_deployment",
+    "description": "\"How would you describe the current state of body-worn camera deployment in your agency?\"",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "city",
+    "description": "State agency city.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "civilianization",
+    "description": "Percentage of non-sworn employees/total employees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "collective_bargaining_civilian",
+    "description": "Level of collective bargaining rights authorized for agency's non-sworn personnel. (all, some, none).",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "collective_bargaining_deputy",
+    "description": "Level of collective bargaining rights authorized for agency's officers/deputies with limited arrest powers. (all, some, none).",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "collective_bargaining_sworn",
+    "description": "Level of collective bargaining rights authorized for agency's sworn employees with arrest powers. (all, some, none).",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "csllea08_id",
+    "description": "From LEAR: unique CSLLEA ID.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "drone",
+    "description": "Does agency use drones?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "educational_incentive",
+    "description": "Agency offers incentives based on educational achievement.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "facial_recognition",
+    "description": "Does agency use facial recognition on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "female",
+    "description": "Number of female employees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "field_training",
+    "description": "Total hours of field training required of agency's new officer recruits.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "firearm_tracing",
+    "description": "Does agency use firearm tracing on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "foreign",
+    "description": "Percentage of foreign-born residents in state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_asset_forefit",
+    "description": "Agency's operational expenses funded by asset forfeiture program.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_contracts",
+    "description": "Agency's operational expenses funded by payment for contracted law enforcement services.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_county",
+    "description": "Agency's operational expenses funded by one or more county governments.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_federal",
+    "description": "Agency's operational expenses funded by one or more federal government agencies.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_municipal",
+    "description": "Agency's operational expenses funded by one or more municipal governments.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_other",
+    "description": "Agency's operational expenses funded by other source (specified).",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_state",
+    "description": "Agency's operational expenses funded by one or more state government agencies.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "funding_source_user_fees",
+    "description": "Agency's operational expenses funded by user fees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "gps",
+    "description": "Does agency use Global Positioning System on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "gunshot_detection",
+    "description": "Does agency use gunshot detection on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "height",
+    "description": "Difference between chief's maximum salary and entry-level officer's minimum salary, divided by entry-level officer's minimum salary.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "in_service_training",
+    "description": "Average hours of in-service training annually required of agency's non-probationary field/patrol officers.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "incidents_per_capita",
+    "description": "Percentage of total crime incidents over population.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "index",
+    "description": "Indexed position.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "infrared",
+    "description": "Does agency use infrared (thermal) imagers on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "issued_full_auto",
+    "description": "Are fully-automatic rifles issued or authorized for use by full-time sworn personnel?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "issued_semi_auto",
+    "description": "Are semi-automatic rifles issued or authorized for use by full-time sworn personnel?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "labor_types_civic",
+    "description": "Number of civic-sumptuary police labor activities recorded.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "labor_types_investigative",
+    "description": "Number of investigative police labor activities recorded.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "labor_types_patrol",
+    "description": "Number of patrol police labor activities recorded.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "labor_types_polemic",
+    "description": "Number of polemic police labor activities recorded.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "labor_types_sentry",
+    "description": "Number of sentry-dataveillant police labor activities recorded",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "latinx",
+    "description": "Percentage of Latinx residents in state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "lpr",
+    "description": "Does agency use license plate readers on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "male",
+    "description": "Number of male employees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "merit_pay",
+    "description": "Agency offers incentives based on special skills or vocational training.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "minimum_education",
+    "description": "Minimum education required to become officer:",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_adult",
+    "description": "Percentage of population 30-39 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_child",
+    "description": "Percentage of population 1 -4 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_lateteen",
+    "description": "Percentage of population 18-19 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_middle",
+    "description": "Percentage of population 40-64 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_preteen",
+    "description": "Percentage of population 5-17 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_senior",
+    "description": "Percentage of population 65 years & older who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "mobility_youngadult",
+    "description": "Percentage of population 20-29 years who moved from different state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "name",
+    "description": "Agency name.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "non_sworn_employees",
+    "description": "Number of non-sworn employees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "nonwhite",
+    "description": "Percentage of residents in state who ID as anything but \"White alone, not Hispanic or Latino\".",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "p1",
+    "description": "Total Part I crime estimate.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "p1_property",
+    "description": "Estimated non-violent Part I crimes per 1000 in population.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "p1_property_raw",
+    "description": "Estimated Part I non-violent crimes.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "p1_violent",
+    "description": "Estimated violent Part I offenses per 1000 in population.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "p1_violent_raw",
+    "description": "Estimated Part I violent crimes.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership",
+    "description": "Does agency partner with any community group(s) besides other law enforcement agencies?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_collaboration",
+    "description": "Score for collaboration community partnership activities.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_cooperation",
+    "description": "Score for cooperation community partnership activities.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_coordination",
+    "description": "Score for coordination community partnership activities.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_fully_institutionalized",
+    "description": "Total community partnership score divided by maximum possible score.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_information_sharing",
+    "description": "Score for information sharing community partnership activities.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "partnership_type_symbolic",
+    "description": "Score for symbolic community partnership activities.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "patrol_strategy_automobile",
+    "description": "Does agency use automobiles (other than motorcycles) on field/patrol work?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "patrol_strategy_bicycle_or_segway",
+    "description": "Does agency use bicycles or human transport (e.g. Segway) on field/patrol work?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "patrol_strategy_foot",
+    "description": "Does agency use foot patrols on field/patrol work?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "patrol_strategy_motorcycle",
+    "description": "Does agency use motorcycles on field/patrol work?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "patrol_strategy_other",
+    "description": "Does agency use other strategies on field/patrol work? (e.g. Horse, aircraft, boat?)",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "per_officer_expenditure",
+    "description": "Agency's operational budget divided by number of sworn officers.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_deadly_force",
+    "description": "Agency has written policy or procedural directives on use of deadly force/firearm discharge.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_homelessness",
+    "description": "Agency has written policy or procedural directives on treating persons experiencing homelessness.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_icd",
+    "description": "Agency has written policy or procedural directives on treating persons who die while in custody.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_juveniles",
+    "description": "Agency has written policy or procedural directives on treating persons classified as juveniles.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_level",
+    "description": "Number of written policies for specific situations.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_mentally_ill",
+    "description": "Agency has written policy or procedural directives on treating persons who experience mental illness.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "policy_racial_profiling",
+    "description": "Agency has written policy or procedural directives on avoiding racial profiling or promoting unbiased policing.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "pop_per_sq_mile",
+    "description": "Population per square mile.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "population",
+    "description": "Total state population.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "poverty",
+    "description": "Percentage of calculated population living below poverty level.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "property_crime_severity",
+    "description": "Estimated percentage of total property crimes over P1.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "renter",
+    "description": "Percentage of residents in state who rent primary residence.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "required_training",
+    "description": "Total number of hours of required training per officer.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "service_call_dispatch",
+    "description": "Percentage of total calls for service resulting in a dispatch.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "severity_homicide",
+    "description": "Estimated percentage of criminal homicides over P1.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "single_parent_headed_household",
+    "description": "Percentage of family households in state held by single parents with own children under 18 years",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "spatial_dispersion",
+    "description": "Number of stations.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "state",
+    "description": "Agency state.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "svt",
+    "description": "Does agency use stolen vehicle tracking on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "sworn_employees",
+    "description": "Number of sworn officers.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "total_employees",
+    "description": "Number of total employees.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "tuition_reimbursement",
+    "description": "Agency offers tuition reimbursement for continuing education, professional development, etc.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "unemployed",
+    "description": "Unemployment rate of population 16 years and over.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "vehicle_sabotage",
+    "description": "Does agency use electrical/engine disruption or tire deflation devices on a regular basis?",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "boolean (T/F)",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "victim_support_model",
+    "description": "Type of victim services model provided.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "violent_crime_severity",
+    "description": "Estimated percentage of total violent crimes over P1.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "zip",
+    "description": "Agency ZIP code.",
+    "dataset": "State Typology",
+    "database": "canonical_prod_state_data_collection_raw",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_state_data_collection"
+  },
+  {
+    "name": "asian_deaths",
+    "description": "Average of Asian deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "average_deaths",
+    "description": "Average of officer involved homicides.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "black_deaths",
+    "description": "Average of Black or African-American deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "index",
+    "description": "Indexed position.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "justifiable_homicde_average",
+    "description": "Average of justifiable homicide amount.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "latinx_deaths",
+    "description": "Average of Latinx deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "middle_eastern_deaths",
+    "description": "Average of Middle Eastern deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "native_american_deaths",
+    "description": "Average of Native American deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "state",
+    "description": "state",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "text",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "sum_death",
+    "description": "Sum of deaths",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "unknown_race_deaths",
+    "description": "Average of unknown race deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "white_deaths",
+    "description": "Average of White deaths.",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "year",
+    "description": "year",
+    "dataset": "State Deadly Force",
+    "database": "canonical_prod_state_deadly_force",
+    "type": "number",
+    "category": "Other LEA-Data",
+    "source": "National Officer-Involved Homicides Database",
+    "dbt_database": "typ_stg_raw_deadlyforce"
+  },
+  {
+    "name": "id",
+    "description": "Yelp API Business ID.",
+    "dataset": "Raw Categories",
+    "database": "typ_stg_big_category_unnested",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_big_category_unnested"
+  },
+  {
+    "name": "raw category",
+    "description": "Yelp API Raw (granular) business category.",
+    "dataset": "",
+    "database": "typ_stg_big_category_unnested",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_big_category_unnested"
+  },
+  {
+    "name": "category",
+    "description": "Broad business category.",
+    "dataset": "Broader Categories & Joined Map",
+    "database": "typ_stg_biz_category, typ_stg_biz_category_joined",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category, typ_stg_biz_category_joined"
+  },
+  {
+    "name": "id",
+    "description": "Yelp API Business ID.",
+    "dataset": "Broader Categories & Joined Map",
+    "database": "typ_stg_biz_category, typ_stg_biz_category_joined",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category, typ_stg_biz_category_joined"
+  },
+  {
+    "name": "bars_clubs",
+    "description": "Broad business category - Bars & clubs.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "entertainment_attractions",
+    "description": "Broad business category - Entertainment & attractions.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "fast_food_casual",
+    "description": "Broad business category - Fast food & casual.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "id",
+    "description": "Yelp API Business ID.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "lodging",
+    "description": "Broad business category - Lodging.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "outdoor_recreation",
+    "description": "Broad business category - Outdoor recreation.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "restaurant",
+    "description": "Broad business category - Restaurants.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "retail_grocery",
+    "description": "Broad business category - Retail & grocery.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "services",
+    "description": "Broad business category - Services.",
+    "dataset": "Category by ID & Tract",
+    "database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_category_by_id, typ_stg_biz_category_by_tract"
+  },
+  {
+    "name": "geom",
+    "description": "Constructed geometry.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_point",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_point"
+  },
+  {
+    "name": "id",
+    "description": "Yelp API: Business ID.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_point",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_point"
+  },
+  {
+    "name": "x",
+    "description": "Business latitude coordinates.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_point",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_point"
+  },
+  {
+    "name": "y",
+    "description": "Business longitude coordinates.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_point",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_point"
+  },
+  {
+    "name": "id",
+    "description": "Yelp API: Business ID.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_tract"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID.",
+    "dataset": "Location",
+    "database": "typ_stg_biz_tract",
+    "type": "text",
+    "category": "Business Data",
+    "source": "-",
+    "dbt_database": "typ_stg_biz_tract"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_per_cap",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_per_cap"
+  },
+  {
+    "name": "mh_per_cap",
+    "description": "Number of mental health facilities per capita.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_per_cap",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_per_cap"
+  },
+  {
+    "name": "population",
+    "description": "Population of corresponding tract.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_per_cap",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_per_cap"
+  },
+  {
+    "name": "sa_per_cap",
+    "description": "Number of substance abuse facilities per capita.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_per_cap",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_per_cap"
+  },
+  {
+    "name": "geoid",
+    "description": "Census tract GEOID",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_count",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_count"
+  },
+  {
+    "name": "year",
+    "description": "Census year.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_count",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_count"
+  },
+  {
+    "name": "num_mh",
+    "description": "Raw number of mental health facilities.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_count",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_count"
+  },
+  {
+    "name": "num_sa",
+    "description": "Raw number of substance abuse facilities.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_facility_count",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_facility_count"
+  },
+  {
+    "name": "geometry",
+    "description": "Facility geometry.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "Year",
+    "description": "Data year.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "frid",
+    "description": "Unique identifier of facility.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "name1",
+    "description": "Facility Name.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "name2",
+    "description": "Facility Name (Field 2).",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "street1",
+    "description": "Street address.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "city",
+    "description": "City",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "street2",
+    "description": "Street address (Field 2).",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "state",
+    "description": "state",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "text",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "zip",
+    "description": "ZIP code.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "latitude",
+    "description": "Latitude.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "longitude",
+    "description": "Longitude.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "type_facility",
+    "description": "SAMHSA Facility Type.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "number",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "is_sa",
+    "description": "Facility is a substance abuse type facility.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "boolean (T/F)",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "is_mh",
+    "description": "Facility is a mental health type facility.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "boolean (T/F)",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "uses_bupren",
+    "description": "Facility uses bupren in treatment.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "boolean (T/F)",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "uses_methad",
+    "description": "Facility uses methad in treatment.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "boolean (T/F)",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "uses_naltrex",
+    "description": "Facility uses naltrex in treatment.",
+    "dataset": "SAMHSA Facility Data",
+    "database": "typ_stg_samhsa_point",
+    "type": "boolean (T/F)",
+    "category": "SAMHSA Facility Data",
+    "source": "-",
+    "dbt_database": "typ_stg_samhsa_point"
+  },
+  {
+    "name": "",
+    "description": "",
+    "dataset": "Census and American Community Survey Data",
+    "database": "typ_stg_acs_raw",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_acs_raw"
+  },
+  {
+    "name": "analysis_level",
+    "description": "Recorded analytical level of JNA for given LEA.",
+    "dataset": "JNA Typology Data",
+    "database": "typ_stg_jna_agency_data",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_jna_agency_data"
+  },
+  {
+    "name": "notes",
+    "description": "Relevant notes on analytical level.",
+    "dataset": "JNA Typology Data",
+    "database": "typ_stg_jna_agency_data",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  },
+  {
+    "name": "clustering_run",
+    "description": "Cluster run identifier.",
+    "dataset": "Clustering Data",
+    "database": "typ_stg_raw_clustering_results",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  },
+  {
+    "name": "link_key",
+    "description": "Unique identifier for row used in cluster run.",
+    "dataset": "Clustering Data",
+    "database": "typ_stg_raw_clustering_results",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  },
+  {
+    "name": "link_type",
+    "description": "Type of unique identifier for row used in cluster run.",
+    "dataset": "Clustering Data",
+    "database": "typ_stg_raw_clustering_results",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  },
+  {
+    "name": "neighbor",
+    "description": "Nearest neighbor cluster.",
+    "dataset": "Clustering Data",
+    "database": "typ_stg_raw_clustering_results",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  },
+  {
+    "name": "sil_width",
+    "description": "Silhouette width statistic.",
+    "dataset": "Clustering Data",
+    "database": "typ_stg_raw_clustering_results",
+    "type": "text",
+    "category": "Typology",
+    "source": "-",
+    "dbt_database": "typ_stg_raw_clustering_results"
+  }
+ ]
